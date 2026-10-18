@@ -104,9 +104,3 @@ Pasos generales:
 
 Las contraseñas de los almacenes son constantes del código (`Servidor.java` y `Cliente.java`) y son
 de práctica.
-
-## Autoría
-
-Práctica realizada con apoyo de herramientas de IA (Claude) para revisión de código, depuración, guía en
-los comandos de certificados, y borradores de la memoria y de los diagramas. Detalle completo en la
-memoria técnica.
