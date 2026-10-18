@@ -1,0 +1,37 @@
+# --- Compilados ---
+bin/
+out/
+*.class
+
+# --- Eclipse / IDE ---
+.settings/
+.classpath
+.project
+.idea/
+*.iml
+.vscode/
+
+# --- Estado local del cliente (carrito de pruebas) ---
+cookies.txt
+
+# --- Certificados: NO se suben claves privadas ni almacenes con clave ---
+# Se ignora todo lo que hay en cert/ salvo el certificado público de la CA
+cert/*
+!cert/cacert.pem
+ca/
+*.pfx
+*.p12
+*.jks
+*.key
+cakey.pem
+
+# --- Material pesado de la entrega ---
+doc/*.mp4
+doc/*.mov
+doc/*.mkv
+*.zip
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
